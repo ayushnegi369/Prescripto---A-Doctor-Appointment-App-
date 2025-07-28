@@ -289,8 +289,8 @@ This project is licensed under the ISC License.
 ## 📞 Support
 
 For support and questions, please contact:
-- Email: your-email@example.com
-- GitHub Issues: [Create an issue](https://github.com/yourusername/prescripto/issues)
+- Email: ayushnegi369@gmail.com
+- GitHub Issues: [Create an issue](https://github.com/ayushnegi369/Prescripto---A-Doctor-Appointment-App-/issues)
 
 ---
 
