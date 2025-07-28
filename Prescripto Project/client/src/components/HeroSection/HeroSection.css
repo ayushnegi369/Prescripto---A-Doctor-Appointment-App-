@@ -1,0 +1,73 @@
+.herosection-parent {
+    background-color: #5f6fff;
+    margin: 20px 10%;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.herosection-image {
+    width: 100%;
+    height: 80%;
+    margin-top: 100px;
+    border-radius: 10px 0px 0px 10px;
+    object-fit: contain;
+}
+
+.left-section-text {
+    color: white;
+    font-size: 50px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 50px;
+}
+
+.left-section-text-parent {
+    margin: 0 0 10px 0;
+}
+
+.left-section-subHeroSection-text {
+    color: white;
+    font-size: 15px;
+}
+
+.left-section-group-profile-image {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.left-section-subHeroSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 15px 0;
+}
+
+.left-section-button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: white;
+    color: #595959;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.right-arrow-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}

@@ -1,0 +1,51 @@
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    border-bottom: 1px solid #adadad;
+    padding: 5px 10px;
+    background-color: #ffffff;
+}
+
+.logo_class2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo2 {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo-text2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000b6d;
+}
+
+.admin-badge {
+    font-size: 13px;
+    margin-left: 10px;
+    border: 1px solid #5f6fff;
+    border-radius: 50px;
+    padding: 3px 20px;
+    font-weight: 400;
+}
+
+.login_class button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #5f6fff;
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}

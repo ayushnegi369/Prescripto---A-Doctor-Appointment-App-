@@ -1,0 +1,104 @@
+.detail-card-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10%;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    gap: 20px;
+}
+
+.image-section {
+    background-color: #5f6fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 260px;
+    height: 260px; */
+
+}
+
+.doctor-image-dimension {
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Styled Detail Section */
+.detail-section {
+    /* flex: 1; */
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    background: #f9f9ff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 800px; */ 
+}
+
+/* Doctor Name Section */
+.doctor-name-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.doctor-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+/* Career Details */
+.career-detail {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    padding: 5px 0;
+}
+
+/* About Section */
+.about-container {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    border-left: 4px solid #5f6fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sub-about-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000b6d;
+}
+
+.about-container p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+}
+
+/* Fee Section */
+.detail-section p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    text-align: start;
+}
+
+.detail-section span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5722;
+}

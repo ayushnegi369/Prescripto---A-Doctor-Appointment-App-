@@ -1,0 +1,99 @@
+.booking-slot-container {
+    margin: 20px 10%;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
+    /* text-align: center; */
+    margin-left: 30%;
+}
+
+/* Heading */
+.booking-slot-container p {
+    font-size: 16px; /* Reduced font size */
+    /* font-weight: bold; */
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Slot Dates (Horizontal Pills) */
+.slot-dates {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.slot-date {
+    border: 1px solid #ccc;
+    padding: 6px 12px; /* Smaller padding */
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px; /* Reduced font size */
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.slot-date:hover {
+    border-color: #5f6fff;
+    transform: scale(1.05);
+}
+
+/* Slot Times (Horizontal Pills) */
+.slot-times {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.slot-times div {
+    border: 1px solid #ccc;
+    padding: 6px 12px; /* Smaller padding */
+    border-radius: 20px;
+    font-size: 12px; /* Reduced font size */
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.slot-times div:hover {
+    border-color: #5f6fff;
+    transform: scale(1.05);
+}
+
+/* Book Button */
+button {
+    background: #5f6fff;
+    color: white;
+    border: none;
+    padding: 10px 40px; /* Adjusted padding */
+    border-radius: 20px;
+    font-size: 14px; /* Reduced font size */
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #4a5ae6;
+    transform: scale(1.05);
+}
+
+.selected-slot-date {
+    background: #5f6fff;
+    color: #fff;
+    border-color: #5f6fff;
+    box-shadow: 0 2px 8px rgba(95, 111, 255, 0.10);
+}
+
+.selected-slot-time {
+    background: #5f6fff;
+    color: #fff;
+    border-color: #5f6fff;
+    box-shadow: 0 2px 8px rgba(95, 111, 255, 0.10);
+}

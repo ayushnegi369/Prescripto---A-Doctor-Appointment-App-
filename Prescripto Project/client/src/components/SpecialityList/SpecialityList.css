@@ -1,0 +1,9 @@
+.speciality-list li{
+    list-style-type: none;
+    border: 1px solid #e5e7eb;
+    border-radius: 2px;
+    color: #4B5563;
+    margin: 10px 0;
+    padding: 8px 30px 8px 10px;
+    border-radius: 5px;
+}

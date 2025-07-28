@@ -1,0 +1,98 @@
+.doctors-container {
+    margin: 10px 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.doctors-header {
+    margin: 10px 10%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1f2937;
+}
+
+.doctors-grid {
+    margin: 0px 0px 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.doctor-card-new {
+    border: 1px solid #c9d8ff;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+    /* padding: 15px; */
+}
+
+.doctor-card-new:hover {
+    transform: scale(1.05);
+}
+
+.doctor-img-container {
+    background-color: #c9d8ff;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.doctor-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.doctor-info {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.doctor-name-new {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.doctor-specialty {
+    font-size: 14px;
+    color: #4b5563;
+    margin-bottom: 5px;
+}
+
+.doctor-availability {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.available {
+    color: green;
+}
+
+.unavailable {
+    color: red;
+}
+
+@media (max-width: 1024px) {
+    .doctors-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .doctors-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .doctors-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

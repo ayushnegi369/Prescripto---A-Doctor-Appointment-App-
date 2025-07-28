@@ -1,0 +1,69 @@
+.appointments-container {
+    max-width: 900px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    /* margin-bottom: 20px; */
+}
+
+.appointment-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.appointment-details {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.specialty {
+    color: gray;
+}
+
+.appointment-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.pay-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.paid-btn {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: default;
+    margin-bottom: 5px;
+}
+
+.cancel-btn {
+    /* background-color: white; */
+    border: 1px solid gray;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,97 @@
+.related-docs-wrapper {
+    margin: 40px 10%;
+    padding: 20px;
+    text-align: center;
+}
+
+.related-docs-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.related-docs-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.related-docs-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.related-docs-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.related-docs-card:hover {
+    transform: scale(1.05);
+}
+
+.related-docs-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.related-docs-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.related-docs-info p {
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+.related-docs-availability {
+    font-size: 12px;
+    color: #28a745;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.related-docs-status-dot {
+    width: 10px;
+    height: 10px;
+}
+
+.related-docs-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.related-docs-speciality {
+    color: #666;
+}
+
+@media (max-width: 1024px) {
+    .related-docs-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .related-docs-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .related-docs-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
