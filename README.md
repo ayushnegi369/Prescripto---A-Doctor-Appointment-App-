@@ -6,6 +6,8 @@ A modern, full-stack web application for booking doctor appointments with integr
 
 Prescripto is a comprehensive doctor appointment booking platform that connects patients with healthcare providers. The application features a user-friendly interface for patients to browse doctors, book appointments, and make secure payments, while providing administrators with tools to manage doctors, appointments, and user data.
 
+Live : https://prescripto-frontend-weld.vercel.app/
+
 ## ✨ Features
 
 ### For Patients (Users)
